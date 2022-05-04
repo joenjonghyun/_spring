@@ -69,7 +69,7 @@ public class UserController {
         return "";
     }
     @PostMapping("/join")
-    public String save(@RequestBody User user) {
+    public String save(@RequestBody User user) {  
         service.save(user);
         return "";
     }
